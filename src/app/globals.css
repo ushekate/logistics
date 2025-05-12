@@ -24,3 +24,12 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.table td{
+  /* padding-left: 4rem; */
+  text-align: center;
+}
+
+.table th{
+  color: #09090B;
+}
