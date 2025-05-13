@@ -11,19 +11,19 @@ import { GrDocumentText } from "react-icons/gr";
 
 
 const Page = () => {
-    const [query, setQuery] = useState('');
-    const handleSearch = () => {
-        e.preventDefault();
-    };
+    // const requestList = [
+    //     {
+
+    //     }
+    // ]
+    
     return (
         <div className=''>
             <div>
-                <form action="" onSubmit={handleSearch} className='flex'>
+                <form action="" className='flex'>
                     <div className=' bg-[#E8F3EB] rounded-[6px]'>
                         <input
                             type="text"
-                            value={query}
-                            onChange={(e) => setQuery(e.target.value)}
                             placeholder='🔍 Search EIR by reference number'
                             className='pl-3 w-[1117.02px] h-[40px]'
                         />
@@ -44,7 +44,7 @@ const Page = () => {
                 </div>
                 <div className='border-2 p-5 border-[#2E6F40] rounded-[8px] h-[184px] w-[392.66px]'>
                     <div className='bg-[#EF44441A] w-[48px] h-[48px] rounded-[8px] p-3'><RxCrossCircled className='position items-center h-[20px] w-[20px]' size={25} color='#EF4444' /></div>
-                    <div className='mt-4 text-[#3C4D03] font-bold font-[Outfit] w-[600]'>Rejected Requests</div>
+                    <div className='mt-4Pageagettext-[#3C4D03] font-bold font-[Outfit] w-[600]'>Rejected Requests</div>
                     <div className='mt-4 text-[#3C4D03] text-2xl font-[Outfit] font-semibold'>8</div>
                 </div>
             </div>
@@ -54,7 +54,7 @@ const Page = () => {
                         <label className='font-semibold'>Recent EIR Requests</label>
                     </div>
                     <div className='text-[#FFF1F2]'>
-                        <button className='flex p-2 w-[144.81px] h-[40px] rounded-[6px] bg-[#2E6F40]'><GrDocumentText className='mr-2' size={20} />New Request</button>
+                        <a href="/RequestPage"><button className='flex p-2 w-[144.81px] h-[40px] rounded-[6px] bg-[#2E6F40]'><GrDocumentText className='mr-2' size={20} />New Request</button></a>
                     </div>
                 </div>
                 <table className="table table-fixed grid-cols-6 w-[1175px]">
