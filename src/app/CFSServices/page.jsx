@@ -10,11 +10,6 @@ import { MdOutlineRemoveRedEye, MdOutlineFileDownload } from "react-icons/md";
 import { GrDocumentText } from "react-icons/gr";
 
 
-
-
-
-
-
 const Page = () => {
     const [query, setQuery] = useState('');
     const handleSearch = () => {
@@ -33,9 +28,7 @@ const Page = () => {
                             className='pl-3 w-[1117.02px] h-[40px]'
                         />
                     </div>
-                    {/* <div className=' '> */}
                     <button type="submit" className='flex bg-[#E8F3EB] h-[40px] rounded-[6px] ml-2 p-2 pr-4 font-[Outfit]'><CiFilter className='pt-1 mr-2' size={23} />Filter</button>
-                    {/* </div> */}
                 </form>
             </div>
             <div className='mt-5 grid grid-cols-3 gap w-[1232px] h-[186px]'>
@@ -81,7 +74,7 @@ const Page = () => {
                             <td className=''>CONT123456</td>
                             <td className=''>2023-11-20</td>
                             <td className=''><label className='text-[#18181B] rounded-[9999px] px-2 py-1 bg-[#F4F4F5]'>Pending</label></td>
-                            <td className='flex pt-2'>
+                            <td className='flex pt-2 justify-center'>
                                 <div>
                                     <button className='flex rounded-[6px] text-[#3C4D03] bg-[#E8F3EB] px-2'>
                                         <MdOutlineRemoveRedEye className='mt-1' size={25} />
@@ -97,7 +90,7 @@ const Page = () => {
                             <td className=''>CONT789012</td>
                             <td className=''>2023-11-19</td>
                             <td className=''><label className='text-[#FFF1F2] rounded-[9999px] px-2 py-1 bg-[#16A34A]'>Approved</label></td>
-                            <td className='flex pt-2'>
+                            <td className='flex pt-2 justify-center'>
                                 <div>
                                     <button className='flex rounded-[6px] text-[#3C4D03] bg-[#E8F3EB] px-2'>
                                         <MdOutlineRemoveRedEye className='mt-1' size={25} />
@@ -106,8 +99,10 @@ const Page = () => {
                                         </label>
                                     </button>
                                 </div>
+                            </td>
+                            <td>
                                 <div>
-                                    <button className='flex ml-2 px-2 py-1 text-[#E4E4E7] bg-[#2E6F40] rounded-[6px]'>
+                                    <button className='flex px-2 py-1 text-[#E4E4E7] bg-[#2E6F40] rounded-[6px]'>
                                         <MdOutlineFileDownload className='mr-2' size={20} />
                                         Download
                                     </button>
@@ -119,7 +114,7 @@ const Page = () => {
                             <td className=''>CONT789012</td>
                             <td className=''>2023-11-19</td>
                             <td className=''><label className='text-[#18181B] rounded-[9999px] px-2 py-1 bg-[#F2A8A8]'>Rejected</label></td>
-                            <td className='flex pt-2'>
+                            <td className='flex pt-2 justify-center'>
                                 <div>
                                     <button className='flex rounded-[6px] text-[#3C4D03] bg-[#E8F3EB] px-2'>
                                         <MdOutlineRemoveRedEye className='mt-1' size={25} />
@@ -135,7 +130,7 @@ const Page = () => {
                             <td className=''>CONT789012</td>
                             <td className=''>2023-11-19</td>
                             <td className=''><label className='text-[#FFF1F2] rounded-[9999px] px-2 py-1 bg-[#16A34A]'>Approved</label></td>
-                            <td className='flex pt-2'>
+                            <td className='flex pt-2 justify-center'>
                                 <div>
                                     <button className='flex rounded-[6px] text-[#3C4D03] bg-[#E8F3EB] px-2'>
                                         <MdOutlineRemoveRedEye className='mt-1' size={25} />
@@ -144,8 +139,10 @@ const Page = () => {
                                         </label>
                                     </button>
                                 </div>
+                            </td>
+                            <td>
                                 <div>
-                                    <button className='flex ml-2 px-2 py-1 text-[#E4E4E7] bg-[#2E6F40] rounded-[6px]'>
+                                    <button className='flex px-2 py-1 text-[#E4E4E7] bg-[#2E6F40] rounded-[6px]'>
                                         <MdOutlineFileDownload className='mr-2' size={20} />
                                         Download
                                     </button>
@@ -157,7 +154,7 @@ const Page = () => {
                             <td className=''>CONT789012</td>
                             <td className=''>2023-11-19</td>
                             <td className=''><label className='text-[#FFF1F2] rounded-[9999px] px-2 py-1 bg-[#16A34A]'>Approved</label></td>
-                            <td className='flex pt-2'>
+                            <td className='flex pt-2 justify-center'>
                                 <div>
                                     <button className='flex rounded-[6px] text-[#3C4D03] bg-[#E8F3EB] px-2'>
                                         <MdOutlineRemoveRedEye className='mt-1' size={25} />
@@ -166,8 +163,10 @@ const Page = () => {
                                         </label>
                                     </button>
                                 </div>
+                            </td>
+                            <td>
                                 <div>
-                                    <button className='flex ml-2 px-2 py-1 text-[#E4E4E7] bg-[#2E6F40] rounded-[6px]'>
+                                    <button className='flex px-2 py-1 text-[#E4E4E7] bg-[#2E6F40] rounded-[6px]'>
                                         <MdOutlineFileDownload className='mr-2' size={20} />
                                         Download
                                     </button>
@@ -179,7 +178,7 @@ const Page = () => {
                             <td className=''>CONT789012</td>
                             <td className=''>2023-11-19</td>
                             <td className=''><label className='text-[#FFF1F2] rounded-[9999px] px-2 py-1 bg-[#16A34A]'>Approved</label></td>
-                            <td className='flex pt-2'>
+                            <td className='flex pt-2 justify-center'>
                                 <div>
                                     <button className='flex rounded-[6px] text-[#3C4D03] bg-[#E8F3EB] px-2'>
                                         <MdOutlineRemoveRedEye className='mt-1' size={25} />
@@ -188,8 +187,10 @@ const Page = () => {
                                         </label>
                                     </button>
                                 </div>
+                            </td>
+                            <td>
                                 <div>
-                                    <button className='flex ml-2 px-2 py-1 text-[#E4E4E7] bg-[#2E6F40] rounded-[6px]'>
+                                    <button className='flex px-2 py-1 text-[#E4E4E7] bg-[#2E6F40] rounded-[6px]'>
                                         <MdOutlineFileDownload className='mr-2' size={20} />
                                         Download
                                     </button>
@@ -201,7 +202,7 @@ const Page = () => {
                             <td className=''>CONT789012</td>
                             <td className=''>2023-11-19</td>
                             <td className=''><label className='text-[#FFF1F2] rounded-[9999px] px-2 py-1 bg-[#16A34A]'>Approved</label></td>
-                            <td className='flex pt-2'>
+                            <td className='flex pt-2 justify-center'>
                                 <div>
                                     <button className='flex rounded-[6px] text-[#3C4D03] bg-[#E8F3EB] px-2'>
                                         <MdOutlineRemoveRedEye className='mt-1' size={25} />
@@ -210,8 +211,10 @@ const Page = () => {
                                         </label>
                                     </button>
                                 </div>
+                                </td>
+                                <td>
                                 <div>
-                                    <button className='flex ml-2 px-2 py-1 text-[#E4E4E7] bg-[#2E6F40] rounded-[6px]'>
+                                    <button className='flex px-2 py-1 text-[#E4E4E7] bg-[#2E6F40] rounded-[6px]'>
                                         <MdOutlineFileDownload className='mr-2' size={20} />
                                         Download
                                     </button>
