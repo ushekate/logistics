@@ -69,10 +69,12 @@ const NewRequest = () => {
     });
 
     return (
-        <div className='p-4 md:p-6 lg:p-8 bg-[#D4E6D2]'>
+        <div className='p-4 w-[70%] md:p-6 lg:p-8 bg-[#D4E6D2]'>
             
-            <div className='border border-[#2E6F40] p-6 md:p-8 max-w-7xl mx-auto rounded-[8px] bg-[#D4E6D2]'>
-                <h1 className='font-semibold text-2xl font-[Outfit] text-[#3C4D03]'>Upload New Priority Movement Request</h1>
+            <div className='border border-[#2E6F40] p-6 md:p-8 w-full lg:w-[90%] mx-auto rounded-[8px] bg-[#D4E6D2]'>
+                <h1 className='font-semibold text-2xl font-[Outfit] text-[#3C4D03]'>
+                    Upload New Priority Movement Request
+                </h1>
                 <form className='mt-5 font-[Outfit] text-[#09090B]' onSubmit={handleSubmit}>
                     <div className='flex flex-col lg:flex-row gap-6'>
                         <div className='flex-1'>
@@ -159,7 +161,8 @@ const NewRequest = () => {
             </div>
 
             
-            <div className='border border-[#2E6F40] mt-10 max-w-7xl mx-auto rounded-[8px] bg-[#D4E6D2]'>
+            <div className='border border-[#2E6F40] mt-10 w-full lg:w-[90%] mx-auto rounded-[8px] bg-[#D4E6D2]'>
+
                 <div className='p-6 md:p-8'>
                     <h1 className='font-semibold text-2xl font-[Outfit] text-[#3C4D03]'>Request List</h1>
 
